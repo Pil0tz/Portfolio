@@ -2,3 +2,20 @@ body {
     margin: 0;
     padding: 0;
 }
+
+div.nav-container {
+
+}
+
+div.side-container {
+    min-height: 200px;
+    background-color: blue;
+}
+
+div.content-container {
+    min-height: 180px;
+    background-color: aqua;
+    min-width: 75%;
+    max-width: 75%;
+    margin-left: 12.5%;
+}
