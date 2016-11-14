@@ -4,14 +4,15 @@ ul.navbar {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    max-height: 50px;
+    max-width: 20%;
 }
 
 ul.navbar > li {
-    float: left;
     color: red;
 }
 
+
+/*Dropdown*/
  li a, .dropbtn {
     display: block;
     color: white;
@@ -26,7 +27,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 li.dropdown {
-    display: inline-block;
+    display: block;
 }
 
 .dropdown-content {
